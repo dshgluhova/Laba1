@@ -9,3 +9,15 @@ import java.util.Collections;
 
 public class Main {
     public static void main(String args[])
+    int[] arrayA = {3, 15, 6, 7, 8};
+    int[] arrayB = {7, 30, 6, 4};
+    int maxA = 0;
+    int maxB = 0;
+        for (int i = 0; i < 4; i++)
+            if (arrayA[i] > maxA) {
+        maxA = arrayA[i];
+    }
+        for (int i = 0; i < 3; i++)
+            if (arrayB[i] > maxB) {
+        maxB = arrayB[i];
+    }
